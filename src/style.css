@@ -1,0 +1,24 @@
+body {
+    background: rgb(138, 231, 238);
+  
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  ul {
+    list-style: none;
+}
+
+.principal {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    gap: 50px;
+    width: 80%;    
+    margin-top:40px;
+  }
+  .namePokemon{
+    text-transform: capitalize;
+    color:white;
+  }
+  img{
+    cursor:pointer;
+  }
